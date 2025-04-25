@@ -59,7 +59,7 @@ $(document).ready(function () {
         $responseDiv.text("Sending...").css("color", "#333");
 
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbyEEvzeNgmBYCTZN9gT35tWG7El-wB-x4F_8pjHaPvo-GEnXzPUEIKaaW0sCe62lboi/exec",
+            url: "https://script.google.com/macros/s/AKfycbxEhBAzfPdfBhr2dzy-SxoolwIHQEPI0vnpXulNcULXCYEYhqf7VmkiNADxHhICvzPn/exec",
             type: "POST",
             data: $form.serialize(), // Serialize form data
             success: function (response) {
